@@ -23,21 +23,8 @@ The system provides a **responsive, professional UI** with creative visualizatio
 * **Deployment:** Vercel (Frontend), Render / AWS / Heroku (Backend)
 
 ```
----
-## **⚙️ How It Works**
 
-1. **User sends an email** to a designated email address.
-2. The backend **receives the email** and extracts headers.
-3. **Header Parsing**: Identifies all `Received:` headers to form the **receiving chain**.
-4. **ESP Detection**: Based on the domain (e.g., `gmail.com`) or header info.
-5. **Data Storage**: Saves raw headers and processed info into MongoDB.
-6. **UI Display**: Frontend fetches data and visualizes:
 
-   * **Chain View**: Shows the mail flow through servers.
-   * **ESP Info**: Displays provider name and logo.
----
-
----
 
 
  
