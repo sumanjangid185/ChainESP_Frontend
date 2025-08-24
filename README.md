@@ -23,9 +23,7 @@ The system provides a **responsive, professional UI** with creative visualizatio
 * **Deployment:** Vercel (Frontend), Render / AWS / Heroku (Backend)
 
 ```
-
 ---
-
 ## **⚙️ How It Works**
 
 1. **User sends an email** to a designated email address.
@@ -38,7 +36,6 @@ The system provides a **responsive, professional UI** with creative visualizatio
    * **Chain View**: Shows the mail flow through servers.
    * **ESP Info**: Displays provider name and logo.
 ---
-
 
 ---
 
