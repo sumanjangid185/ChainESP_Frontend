@@ -1,30 +1,60 @@
+Here’s a **shorter version of your README** while keeping all key details:
+
 ---
 
-# **ChainESP**
+# **MailChainX**
 
 *Automated Email Receiving Chain & ESP Detection System*
 
-## **📌 Overview**
+## **Overview**
 
-ChainESP is a full-stack application designed to analyze emails sent to the system and extract critical information such as:
+MailChainX analyzes incoming emails to extract:
 
-* **Receiving Chain**: The sequence of mail servers the email passed through before reaching the inbox.
-* **ESP Type**: The Email Service Provider (e.g., Gmail, Outlook, Yahoo).
+* **Receiving Chain** – sequence of servers email passed through.
+* **ESP Type** – Email Service Provider (Gmail, Outlook, Yahoo, etc.).
 
-The system provides a **responsive, professional UI** with creative visualizations and a **robust backend** for accurate analysis and storage.
+It features a **responsive UI** with creative visualizations and a **structured backend** for processing and storing email data.
+
 ---
 
-## **🛠 Tech Stack**
+## **Features**
 
-* **Frontend:** React.js / Next.js, Tailwind CSS (or custom CSS)
-* **Backend:** Node.js, NestJS
-* **Database:** MongoDB
-* **Visualization:** Chart.js / D3.js / Custom Components
-* **Deployment:** Vercel (Frontend), Render / AWS / Heroku (Backend)
+**Frontend (React/Next.js)**
 
-```
+* Responsive, mobile-friendly UI
+* Dashboard for email details
+* Visualize receiving chain (timeline/table)
+* Display ESP type clearly
 
+**Backend (Node.js + NestJS)**
 
+* API to process & store emails
+* Extract headers for receiving chain
+* Detect ESP type
+* Follows clean architecture & best practices
+
+**Database (MongoDB)**
+
+* Store raw and processed email logs
+* Save metadata like ESP type and timestamps
+
+---
+
+## **Tech Stack**
+
+React.js / Next.js | Node.js + NestJS | MongoDB | Chart.js / D3.js
+
+---
+
+## **How It Works**
+
+1. User sends email → backend receives it
+2. Parse headers → extract receiving chain
+3. Detect ESP type from domain/headers
+4. Store data in MongoDB
+5. Frontend fetches data → visualize chain & ESP
+
+---
 
 
  
