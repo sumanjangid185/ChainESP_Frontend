@@ -1,14 +1,13 @@
-Here’s a **shorter version of your README** while keeping all key details:
 
 ---
 
-# **MailChainX**
+# **ChainESP**
 
 *Automated Email Receiving Chain & ESP Detection System*
 
 ## **Overview**
 
-MailChainX analyzes incoming emails to extract:
+ChainESP analyzes incoming emails to extract:
 
 * **Receiving Chain** – sequence of servers email passed through.
 * **ESP Type** – Email Service Provider (Gmail, Outlook, Yahoo, etc.).
